@@ -1,16 +1,40 @@
-# Beaglebone-Webcam-Streaming-Server
-### Python, OpenCV and Flask implementation of a Beaglebone Black video/webcam streaming server
-In this repository you can find a simple implementation of a webcam/video streaming server based on Beaglebone Black.
-##### Theory and Background
-The implementation borrows a lot from these two sources:
-* [Video Streaming with Flask](https://blog.miguelgrinberg.com/post/video-streaming-with-flask)
-* [kyatou/python-opencv_tutorial](https://github.com/kyatou/python-opencv_tutorial)
+# Live_Video_Streaming
+Live Video Streaming (in vision programming class)
 
-##### Hardware
-The following hardware are used:
-* Beaglebone Black A5A
-* Logitech, Inc. Webcam C170
-* Ralink Technology, Corp. RT5370 Wireless Adapter (not exactly relevant to this codebase)
-* Genesys Logic, Inc. Hub
-##### Hardware Setup
-All hardware configuration steps, and the Linux image, are available [here](https://github.com/itsasimulation/Beaglebone-Black-Config/tree/master)
+## Function
+
+1. Starting Flask Web server (Showing Live Web Cam in Localhost)
+2. Showing Starting Date & Time, IP Adress
+3. Selecting Specific Area ( Rectangle Area )
+4. Tracking Specific Area ( Rectangle Area )
+
+## Result Live Cam
+
+  <img width="400" src="https://user-images.githubusercontent.com/37185394/60858090-eaf7d900-a247-11e9-8653-11c4c7295ae1.gif"/>
+  <img width="400" src="https://user-images.githubusercontent.com/37185394/60858089-ea5f4280-a247-11e9-8c80-c2b295a97575.gif"/>
+  
+## Using Manual
+
+1. Starting Server and let program learn background 
+(no object at cam, existing just background) => Just Waiting outside (It takes just 3 seconds)
+2. Selecting Area which you want to remove at "cv2.imshow"
+3. Object Removing (start) : "t or "d"
+4. Object Removing (end) : "r" or "s"
+5. Chrmoakey (start) : "k"
+6. Chromakey (end) : "l"
+ 
+## pip install
+
+```python
+pip3 install flask
+pip3 install dlib
+pip3 install cv2
+pip3 install datetime
+``` 
+
+## Dependencies
+- Python 3+
+- dlib
+- OpenCV
+- datetime
+- flask
