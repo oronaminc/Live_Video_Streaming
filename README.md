@@ -7,6 +7,7 @@ Live Video Streaming (in vision programming class)
 2. Showing Starting Date & Time, IP Adress
 3. Selecting Specific Area ( Rectangle Area )
 4. Tracking Specific Area ( Rectangle Area )
+5. Delecting Specific Area ( Chromakey Effect )
 
 ## Result Live Cam
 <div>
