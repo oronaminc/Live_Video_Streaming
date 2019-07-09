@@ -10,8 +10,8 @@ Live Video Streaming (in vision programming class)
 
 ## Result Live Cam
 
-  <img width="400" src="https://user-images.githubusercontent.com/37185394/60858090-eaf7d900-a247-11e9-8653-11c4c7295ae1.gif"/>
-  <img width="400" src="https://user-images.githubusercontent.com/37185394/60858089-ea5f4280-a247-11e9-8c80-c2b295a97575.gif"/>
+  <img width="300" src="https://user-images.githubusercontent.com/37185394/60858090-eaf7d900-a247-11e9-8653-11c4c7295ae1.gif"/>
+  <img width="300" src="https://user-images.githubusercontent.com/37185394/60858089-ea5f4280-a247-11e9-8c80-c2b295a97575.gif"/>
   
 ## Using Manual
 
